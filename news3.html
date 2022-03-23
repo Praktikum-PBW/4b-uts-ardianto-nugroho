@@ -18,16 +18,21 @@
     <link rel="stylesheet" href="style.css" />
 
     <!-- Use Jquery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
-    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
-
-    <!-- Fade Out animasi preLoader -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script>
-      $(document).ready(function () {
-        $(".preloader").fadeOut();
-      });
+//       $(document).ready(function () {
+//         $(".preloader").fadeOut();
+//       });
+     var delay = 8000;
+ 
+    $(window).on('load', function() {
+      setTimeout(function(){
+         $(".preloader").hide();
+          $(".loading").hide();
+      },delay);
+    });
     </script>
-
+    
     <!-- CSS Internal -->
     <style>
       .page {
