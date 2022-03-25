@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Healthy Care</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <!-- Font Google API -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+
+    <!-- Icon Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Use Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+//       $(document).ready(function () {
+//         $(".preloader").fadeOut();
+//       });
+     var delay = 8000;
+ 
+    $(window).on('load', function() {
+      setTimeout(function(){
+         $(".preloader").hide();
+          $(".loading").hide();
+      },delay);
+    });
+    </script>
+
+    <!-- CSS Internal -->
+    <style>
+      .page {
+        padding-top: 5rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="loading">
+        <img src="img/loader.gif" width="300" />
+        <p class="text-center lead">Harap Tunggu</p>
+      </div>
+    </div>
+
+    <span class="TurnBackground"
+      ><button onclick="Turn()"><i class="bi bi-brightness-high"></i></button
+    ></span>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark shadow-sm fixed-top text-primary">
+      <div class="container">
+        <a href="#" class="navbar-brand fs-4 text-white fw-bold"><i class="bi bi-heart-pulse"></i> HealthyPedia</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" type="button" data-bs-target="#mobile-nav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse text-center" id="mobile-nav">
+          <div class="navbar-nav ms-auto" id="myTab">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link active">News</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Contact</a>
+            </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Content -->
+    <div class="container page">
+      <div class="row justify-content-center">
+        <div class="col-11 col-lg-12">
+          <img src="img/card-2.jpg" alt="Gambar Manfaat Bersosialisasi" class="img-fluid rounded mb-4" height="600" width="1200" />
+          <p class="text-muted border-bottom pb-2">Penulis Ardianto Nugroho | 20 Maret 2022</p>
+          <h1 class="display-4 fw-bolder">Bersosialisasi: Resep Sehat untuk Mental Anda</h1>
+          <p>
+            Sebagai makhluk sosial, mustahil manusia hidup tanpa bersosialisasi. Terlepas dari tertutup atau terbukanya karakter seseorang pada orang lain, bersosialisasi mutlak diperlukan termasuk untuk kesehatan mental. Bersosialisasi
+            terbukti bisa meningkatkan kesehatan otak dan menurunkan risiko mengalami demensia.
+          </p>
+          <p>
+            Tentu bersosialisasi yang bermanfaat adalah jenis sosialisasi positif. Bukannya terjebak dalam lingkaran pertemanan yang lebih banyak aktivitas negatif di dalamnya seperti saling pamer atau tak bisa menghargai orang lain.
+            Artinya, penentuan berada dalam lingkaran sosialisasi positif atau negatif harus disaring dari diri sendiri.
+          </p>
+          <h2 class="fw-bold">Manfaat bersosialisasi untuk kesehatan mental</h2>
+          <p>Sebelum membahas manfaat bersosialisasi untuk kesehatan mental, manfaatnya untuk kesehatan fisik juga tak terbantahkan. Orang yang aktif bersosialisasi memiliki sistem kekebalan tubuh lebih kuat, utamanya bagi lansia.</p>
+          <p>Selain itu, beberapa manfaat bersosialisasi untuk kesehatan mental adalah:</p>
+          <div class="isi">
+            <h2 class="fw-bold">1. Menghindari depresi</h2>
+            <p>
+              Berinteraksi dengan orang lain akan membuat perasaan menjadi lebih senang. Dalam jangka panjang, bersosialisasi akan mengurangi risiko mengalami depresi. Itulah sebabnya ada orang yang efektif memperbaiki mood mereka dengan
+              cara membangun koneksi sosial bersama orang lain.
+            </p>
+
+            <h2 class="fw-bold">2. Menurunkan risiko demensia</h2>
+            <img src="img/demensia.jpg" alt="Pasangan Lansia" class="img-fluid rounded justify-content-center mb-3" />
+            <p>
+              Bagi lansia, bersosialisasi baik untuk kesehatan mental. Dalam penelitian, orang yang terbiasa terkoneksi dengan orang lain menunjukkan daya ingat dan kemampuan kognitif yang lebih baik. Dalam jangka panjang, lansia yang masih
+              aktif bersosialisasi jarang mengalami demensia dibanding yang terisolasi secara sosial.
+            </p>
+
+            <h2 class="fw-bold">3. Merasa nyaman</h2>
+            <p>
+              Interaksi sosial bisa membuat seseorang merasa nyaman, dengan caranya masing-masing. Mungkin bagi <b>social butterfly,</b> hinggap dari satu kelompok ke kelompok lain sudah menjadi kewajiban bagi mereka. Tapi tentu berbeda
+              dengan orang introvert yang bisa merasa kehabisan energi jika bertemu terlalu banyak orang.
+            </p>
+            <p>
+              Namun terlepas dari apakah seseorang introvert atau ekstrovert, tetap saja interaksi sosial menimbulkan rasa nyaman. Sebut saja bagi introvert, mereka merasa nyaman bersosialisasi dengan orang-orang terdekat tempat mereka bisa
+              berbicara dan menuangkan keluh kesah apapun.
+            </p>
+
+            <h2 class="fw-bold">4. Memotivasi jalani gaya hidup sehat</h2>
+            <p>
+              Lihat bagaimana pengobatan non-medis seperti berkumpul dengan support group kerap disarankan bagi pasien tertentu. Secara tidak langsung, itu adalah bentuk bersosialisasi yang bermanfaat untuk memotivasi tiap individu. Dengan
+              saling bercerita bersama teman seperjuangan, maka akan ada motivasi untuk sembuh atau lebih menerima penyakit yang diderita.
+            </p>
+            <p>
+              Tentu hal ini tak hanya berlaku pada support group penderita penyakit tertentu saja. Dalam level yang lebih sederhana, pertemanan dalam kelompok yang sama-sama suka berolahraga atau menjalani pola makan sehat tertentu juga
+              bisa saling memotivasi.
+            </p>
+
+            <h2 class="fw-bold">5. Kontak langsung bagaikan “vaksin”</h2>
+            <p>
+              Secara psikologis, kontak langsung memberi stimulus pada sistem saraf sehingga melepaskan semacam “cocktail” pada neurotransmitter yang bertugas merespons stres dan rasa cemas berlebih. Artinya, ketika terbiasa bersosialisasi
+              dengan bertemu langsung, maka seseorang bisa lebih tahan banting terhadap berbagai pemicu stres.
+            </p>
+            <p>
+              Sama seperti vaksin yang memicu antibodi untuk keluar, bahkan interaksi sederhana seperti melakukan tos atau berjabat tangan bisa menstimulus produksi oksitosin. Ketika ada produksi oksitosin melimpah, maka tingkat kepercayaan
+              bisa meningkat. Di saat bersamaan, level kortisol yang merespons stres pun menurun.
+            </p>
+
+            <h2 class="fw-bold">6. Mencegah penurunan kesehatan mental</h2>
+            <p>
+              Jika di atas sudah disebutkan bahwa bersosialisasi mencegah demensia hingga penurunan fungsi degeneratif otak, ada penelitian lain yang tak kalah menarik. Menurut Cognitive Neurology and Alzheimer’s Disease Center di Chicago,
+              para “SuperAgers” atau lansia berusia 80 tahun ke atas dengan kesehatan mental layaknya orang lebih muda memiliki satu kesamaan: punya sahabat dekat.
+            </p>
+            <p>Dengan adanya sahabat dekat dalam jangka panjang ini, terbukti membuat para SuperAgers mendapatkan dampak positif dari interaksi sosial ketimbang yang tidak.</p>
+            <p>Bahkan bagi orang yang tak suka bersosialisasi dengan terlalu banyak orang sekalipun, berinteraksi hanya dengan satu orang sahabat dekat saja tetap bisa membawa manfaat positif bagi kesehatan fisik dan juga mental.</p>
+            <p>Tak hanya baik untuk kesehatan otak, bersosialisasi terbukti bisa memotivasi seseorang menjalani hidup yang lebih positif, sehat, dan menyenangkan.</p>
+          </div>
+          <div class="separator"></div>
+          <button class="btn btn-outline-warning mb-1 mx-1">Kesehatan mental</button>
+          <button class="btn btn-outline-warning mb-1 mx-1">Hidup sehat</button>
+          <button class="btn btn-outline-warning mb-1 mx-1">Kesehatan</button>
+          <div class="border-bottom mt-4 mb-3"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Content -->
+
+    <!-- Content 2 -->
+    <div class="container">
+      <div class="row justify-content-center mb-3">
+        <div class="col-11 col-lg-12">
+          <h1 class="fw-bold">Artikel Terkait</h1>
+        </div>
+      </div>
+      <div class="row justify-content-center mb-3">
+        <div class="col-11 col-lg-5">
+          <img src="img/gilr-swim.jpg" alt="Girl swim" class="img-fluid rounded mb-2" />
+        </div>
+        <div class="col-11 col-lg-7">
+          <h3 class="fw-bold">Terapkan sejak dini, cara melatih motorik anak</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt modi corporis asperiores, labore minus voluptatibus repudiandae beatae consectetur expedita nesciunt minima explicabo culpa at libero.</p>
+          <a href="news1.html" class="text-decoration-none text-primary">Baca Selengkapnya</a>
+        </div>
+      </div>
+      <div class="row justify-content-center mb-3">
+        <div class="col-11 col-lg-5">
+          <img src="img/woman-hair.jpg" alt="Girl hair" class="img-fluid rounded mb-2" />
+        </div>
+        <div class="col-11 col-lg-7">
+          <h3 class="fw-bold">Waspada, beginilah akibat dari sering menggaruk kepala</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt modi corporis asperiores, labore minus voluptatibus repudiandae beatae.</p>
+          <a href="news1.html" class="text-decoration-none text-primary">Baca Selengkapnya</a>
+        </div>
+      </div>
+      <div class="row justify-content-center mb-3">
+        <div class="col-11 col-lg-5">
+          <img src="img/card-1.jpg" alt="nutrition" class="img-fluid rounded mb-2" />
+        </div>
+        <div class="col-11 col-lg-7">
+          <h3 class="fw-bold">Cari Tahu Apa Saja Manfaat Serat Bagi Kesehatan Tubuh</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt modi corporis asperiores, labore minus voluptatibus repudiandae beatae.</p>
+          <a href="news1.html" class="text-decoration-none text-primary">Baca Selengkapnya</a>
+        </div>
+      </div>
+      <div class="row justify-content-center mb-3">
+        <div class="col-11 col-lg-5">
+          <img src="img/card-3.jpg" alt="nutrition" class="img-fluid rounded mb-2" />
+        </div>
+        <div class="col-11 col-lg-7">
+          <h3 class="fw-bold">Kesehatan Anak Usia Dini: Pentingnya Memperhatikan Asupan Gizi</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt modi corporis asperiores, labore minus voluptatibus repudiandae beatae.</p>
+          <a href="news3.html" class="text-decoration-none text-primary">Baca Selengkapnya</a>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Content 2 -->
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-primary text-white mt-4 pb-1">
+      <p class="text-center pt-4">Created with <i class="bi bi-heart-fill text-danger"></i> by Ardianto Nugroho &copy;2022</p>
+      <div class="pb-2 text-center">
+        <button class="scale1">
+          <a href="https://web.facebook.com/rizky.nugroho.127" class="p-1"><i class="bi bi-facebook fs-2 text-white"></i></a>
+        </button>
+        <button class="scale1">
+          <a href="https://github.com/ArdiantoN19" class="p-1"><i class="bi bi-github fs-2 scale1 text-dark"></i></a>
+        </button>
+        <button class="scale1">
+          <a href="https://www.instagram.com/ardi_19n/" class="p-1"><i class="bi bi-instagram fs-2 scale1 text-danger"></i></a>
+        </button>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script>
+      var myCarousel = document.querySelector("#carouselExampleSlidesOnly");
+      var carousel = new bootstrap.Carousel(myCarousel, {
+        interval: 6000,
+      });
+    </script>
+
+    <script>
+      var firstTabEl = document.querySelector("#myTab li:last-child a");
+      var firstTab = new bootstrap.Tab(firstTabEl);
+
+      firstTab.show();
+    </script>
+
+    <!-- Use Jquery -->
+    <script>
+      $(document).ready(function () {
+        $(".navbar-nav").on("click", "a", function () {
+          $(".navbar-nav a.active").removeClass("active");
+          $(this).addClass("active");
+        });
+      });
+    </script>
+    <script>
+      function Turn() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+        var ubah = document.querySelector(".TurnBackground");
+        ubah.classList.toggle("ubahTombol");
+      }
+    </script>
+  </body>
+</html>
